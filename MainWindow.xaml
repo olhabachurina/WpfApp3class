@@ -1,0 +1,35 @@
+﻿<Window x:Class="WpfApp3class.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3class"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0" Margin="5">
+            <Button Content="Navy" Name="NavyButton" Click="ColorButton_Click"/>
+            <Button Content="Blue" Name="BlueButton" Click="ColorButton_Click"/>
+            <Button Content="Blue" Name="AquaButton" Click="ColorButton_Click"/>
+            <Button Content="Blue" Name="TealButton" Click="ColorButton_Click"/>
+            <Button Content="Blue" Name="OliveButton" Click="ColorButton_Click"/>
+            <Button Content="Blue" Name="GreenButton" Click="ColorButton_Click"/>
+            <Button Content="Blue" Name="LimeButton" Click="ColorButton_Click"/>
+            <Button Content="Blue" Name="YellowButton" Click="ColorButton_Click"/>
+            <Button Content="Blue" Name="OrangeButton" Click="ColorButton_Click"/>
+            <Button Content="Blue" Name="RedButton" Click="ColorButton_Click"/>
+            <Button Content="Blue" Name="MaroonButton" Click="ColorButton_Click"/>
+            <Button Content="Blue" Name="FuchsiaButton" Click="ColorButton_Click"/>
+            <Button Content="Blue" Name="PurpleButton" Click="ColorButton_Click"/>
+            <Button Content="Blue" Name="BlackButton" Click="ColorButton_Click"/>
+            <Button Content="Blue" Name="SilverButton" Click="ColorButton_Click"/>
+            <Button Content="Blue" Name="GrayButton" Click="ColorButton_Click"/>
+            <Button Content="Blue" Name="WhiteButton" Click="ColorButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
